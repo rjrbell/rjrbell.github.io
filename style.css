@@ -1,0 +1,16 @@
+* {
+	font-family: Lora;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+
+}
+
+#profile-pic {
+	border-color: black;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 50%;
+}
