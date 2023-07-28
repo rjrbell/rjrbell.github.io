@@ -7,9 +7,18 @@ body {
 	color: white;
 }
 
+body.light-mode {
+	background-color: white;
+	color: #1F3B4D;
+}
+
 .content-wrapper {
 	display: flex;
 	justify-content: center;
+}
+
+.content-main {
+	position: relative;
 }
 
 ul.experience {
@@ -25,4 +34,23 @@ ul.experience {
 
 .button:hover {
 	opacity: 0.75;
+}
+
+body.light-mode .button {
+	background-color: #1F3B4D;
+	color: white;
+}
+
+body.light-mode .button:hover {
+	opacity: 0.9;
+}
+
+.mode-button-wrapper {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.test {
+	color: red;
 }
