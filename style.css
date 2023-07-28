@@ -5,6 +5,8 @@
 body {
 	background-color: #1F3B4D;
 	color: white;
+	transition: background-color 2s;
+	transition-timing-function: ease;
 }
 
 body.light-mode {
@@ -30,6 +32,8 @@ ul.experience {
 	color: #1F3B4D;
 	display: inline-block;
 	padding: 0.75rem 1rem;
+	transition: opacity 1s;
+	transition-timing-function: ease;
 }
 
 .button:hover {
