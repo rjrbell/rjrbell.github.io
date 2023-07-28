@@ -1,16 +1,28 @@
-* {
-	font-family: Lora;
-	text-align: center;
+*{
+	font-family: sans-serif;
 }
 
-h1 {
-	text-align: center;
-
+body {
+	background-color: #1F3B4D;
+	color: white;
 }
 
-#profile-pic {
-	border-color: black;
-	border-style: solid;
-	border-width: 3px;
-	border-radius: 50%;
+.content-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+ul.experience {
+	columns: 2;
+}
+
+.button {
+	background-color: white;
+	color: #1F3B4D;
+	display: inline-block;
+	padding: 0.75rem 1rem;
+}
+
+.button:hover {
+	opacity: 0.75;
 }
